@@ -6,7 +6,8 @@ import CarCard from "@/components/CarCard/CarCard";
 import ShowMore from "@/components/ShowMore/ShowMore";
 import SearchBar from "@/components/SearchBar/SearchBar";
 import CustomFilter from "@/components/CustomFilter/CustomFilter";
-
+import SearchManufacturer from "@/components/SearchManufacturer/SearchManufacturer"
+import CarDetails from "@/components/CarDetails/CarDetails";
 
 export {
     Hero,
@@ -16,5 +17,7 @@ export {
     CarCard,
     ShowMore,
     SearchBar,
-    CustomFilter
+    CustomFilter,
+    SearchManufacturer,
+    CarDetails
 }
