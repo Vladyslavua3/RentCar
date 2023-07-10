@@ -1,9 +1,9 @@
 "use client";
 
-import { Fragment, useState } from "react";
+import {React, Fragment, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Listbox, Transition } from "@/headlessui/react";
+import { Listbox, Transition } from "@headlessui/react";
 
 import { CustomFilterProps } from "@/types";
 import { updateSearchParams } from "@/utils";
@@ -34,7 +34,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
                         <span className='block truncate'>{selected.title}</span>
                         <Image src='/chevron-up-down.svg' width={20} height={20} className='ml-4 object-contain' alt='chevron_up-down' />
                     </Listbox.Button>
-                    {/* Transition for displaying the options */}
+                     Transition for displaying the options
                     <Transition
                         as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
                         leave='transition ease-in duration-100'
