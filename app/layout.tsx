@@ -2,9 +2,6 @@ import './globals.css'
 import {Footer, Navbar} from "@/components";
 import React from "react";
 
-
-
-
 export const metadata = {
   title: 'Rent Car',
   description: 'Discover the best cars',
